@@ -98,6 +98,13 @@ body {
     /* Apply transition to both left and top */
 }
 
+.main-hero{
+    overflow-x:hidden;
+}
+.sub-hero{
+    overflow-x: hidden;
+}
+
 .cur-2 {
     width: 20px;
     height: 20px;
