@@ -15,6 +15,13 @@ const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".main"),
   smooth: true
 });
+
+document.querySelector("#btt").addEventListener("click", () => {
+  locoScroll.scrollTo(0);
+})
+
+
+
 // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
 locoScroll.on("scroll", ScrollTrigger.update);
 
@@ -39,7 +46,17 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 }
+
+
+
+
+
 smoothScroll();
+
+
+
+
+
 
 Draggable.create(".dragme",{
   type: "x",
