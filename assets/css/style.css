@@ -98,13 +98,6 @@ body {
     /* Apply transition to both left and top */
 }
 
-.main-hero{
-    overflow-x:hidden;
-}
-.sub-hero{
-    overflow-x: hidden;
-}
-
 .cur-2 {
     width: 20px;
     height: 20px;
@@ -115,6 +108,12 @@ body {
     mix-blend-mode: difference;
     transition: left 0.4s ease, top 0.4s ease;
     /* Apply transition to both left and top */
+}
+.main-hero{
+    overflow-x:hidden;
+}
+.sub-hero{
+    overflow-x: hidden;
 }
 
 .main-heading {
